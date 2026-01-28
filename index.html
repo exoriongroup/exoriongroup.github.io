@@ -30,10 +30,14 @@
     <nav class="bg-white border-b border-slate-200 py-4 px-6 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <span class="font-bold text-xl tracking-tight text-slate-800">EXORION <span class="text-blue-600">GROUP</span></span>
-            <div class="flex space-x-6 text-sm font-medium text-slate-600">
-                <a href="#services" class="hover:text-blue-600">Services</a>
-                <a href="#about" class="hover:text-blue-600">About</a>
-                <a href="#contact" class="hover:text-blue-600">Contact</a>
+            <div class="flex items-center space-x-6 text-sm font-medium text-slate-600">
+                <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="https://climate.stripe.com/ASolyW" target="_blank" class="flex items-center text-emerald-600 hover:text-emerald-700 transition">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4.318 6.318a4.5 4.5 0 000 6.364L10 18.364l5.682-5.682a4.5 4.5 0 00-6.364-6.364L10 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" clip-rule="evenodd"></path></svg>
+                    Sustainability
+                </a>
+                <a href="#contact" class="hidden md:block hover:text-blue-600 transition">Contact</a>
             </div>
         </div>
     </nav>
@@ -143,11 +147,20 @@
     <footer class="py-12 px-6 bg-slate-900 text-slate-400 text-center">
         <div class="max-w-6xl mx-auto">
             <p class="font-bold text-white mb-2 uppercase tracking-widest">Exorion Group</p>
-            <p class="text-sm mb-8 opacity-60">Strategy Consulting & Risk Management &bull; Established 2026</p>
+            <p class="text-sm mb-6 opacity-60">Strategy Consulting & Risk Management &bull; Established 2026</p>
+            
+            <!-- Stripe Climate Badge -->
+            <div class="mb-8 flex justify-center">
+                <a href="https://climate.stripe.com/ASolyW" target="_blank" class="inline-flex items-center bg-white/5 border border-white/10 px-4 py-2 rounded-full hover:bg-white/10 transition">
+                    <svg class="w-5 h-5 text-emerald-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4.318 6.318a4.5 4.5 0 000 6.364L10 18.364l5.682-5.682a4.5 4.5 0 00-6.364-6.364L10 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" clip-rule="evenodd"></path></svg>
+                    <span class="text-xs font-medium text-white tracking-wide">We contribute to carbon removal</span>
+                </a>
+            </div>
+
             <div class="flex justify-center space-x-6 text-xs uppercase font-bold tracking-tighter">
                 <a href="#" class="hover:text-white transition">Privacy Policy</a>
                 <a href="#" class="hover:text-white transition">Terms of Service</a>
-                <a href="#" class="hover:text-white transition">Contact</a>
+                <a href="https://climate.stripe.com/ASolyW" target="_blank" class="text-emerald-500 hover:text-emerald-400 transition">Our Climate Commitment</a>
             </div>
             <p class="mt-8 text-[10px] opacity-40">&copy; 2026 Exorion Group. All Rights Reserved.</p>
         </div>
