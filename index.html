@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exorion Group | Strategy Consulting & Risk Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); }
+        .service-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 leading-relaxed">
+
+    <!-- Navigation (Simple for Credibility) -->
+    <nav class="bg-white border-b border-slate-200 py-4 px-6 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tight text-slate-800">EXORION <span class="text-blue-600">GROUP</span></span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                <a href="#services" class="hover:text-blue-600">Services</a>
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#contact" class="hover:text-blue-600">Contact</a>
+            </div>
+            <a href="#payment" class="bg-blue-600 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-blue-700 transition">Client Portal</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Strategy Consulting & Risk Management</h1>
+            <p class="text-xl md:text-2xl opacity-90 font-light max-w-2xl mx-auto mb-10">
+                Helping high-growth enterprises navigate regulatory complexity and operational risk.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#payment" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-bold shadow-lg hover:bg-slate-100 transition">Initiate Retainer</a>
+                <a href="#contact" class="border border-white/30 bg-white/10 backdrop-blur-sm px-8 py-3 rounded-lg font-bold hover:bg-white/20 transition">Speak with a Consultant</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6">
+        
+        <!-- Services Grid -->
+        <section id="services" class="py-20">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-800 mb-4">Core Competencies</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 service-card">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Compliance Architecture</h3>
+                    <p class="text-slate-600">We design frameworks that ensure your operations exceed industry standards and regulatory requirements.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 service-card">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5s3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Strategic Safety</h3>
+                    <p class="text-slate-600">Tailored risk-mitigation manuals and SOPs that integrate seamlessly into your existing corporate culture.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 service-card">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Resilience Tracking</h3>
+                    <p class="text-slate-600">Data-driven insights and real-time monitoring of your firm's safety and compliance performance metrics.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-slate-100 rounded-3xl px-8 md:px-16 mb-20">
+            <div class="max-w-3xl">
+                <h2 class="text-3xl font-bold text-slate-800 mb-6">Our Approach</h2>
+                <p class="text-lg text-slate-700 mb-6">
+                    At Exorion Group, we believe that risk management shouldn't be a bottleneck—it should be a competitive advantage. Our strategy focuses on identifying vulnerabilities before they become liabilities.
+                </p>
+                <p class="text-lg text-slate-700">
+                    We partner with leadership teams to build resilient organizations through rigorous auditing, customized training programs, and proactive service tracking.
+                </p>
+            </div>
+        </section>
+
+        <!-- Payment Section -->
+        <section id="payment" class="bg-white rounded-2xl shadow-xl overflow-hidden mb-20 border border-slate-200">
+            <div class="md:flex">
+                <div class="md:w-1/2 p-8 md:p-12">
+                    <h2 class="text-3xl font-bold mb-6 text-slate-800">Secure Your Consultation</h2>
+                    <p class="text-slate-600 mb-8">
+                        Exorion Group provides professional safety services billed via retainer or per-project basis. Once payment is received, we will schedule your initial site visit or documentation review.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-slate-700">
+                            <span class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center mr-3 text-xs">✓</span>
+                            Secure Checkout (SSL Encrypted)
+                        </li>
+                        <li class="flex items-center text-slate-700">
+                            <span class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center mr-3 text-xs">✓</span>
+                            Detailed Service Agreement provided upon payment
+                        </li>
+                        <li class="flex items-center text-slate-700">
+                            <span class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center mr-3 text-xs">✓</span>
+                            Instant Invoice for Business Accounting
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="md:w-1/2 bg-slate-50 p-8 md:p-12 flex flex-col justify-center items-center text-center border-l border-slate-100">
+                    <span class="text-slate-500 uppercase tracking-widest text-xs font-semibold mb-2">Service Retainer Deposit</span>
+                    <div class="text-6xl font-extrabold text-slate-900 mb-8">$500<span class="text-xl text-slate-400 font-normal">.00</span></div>
+                    
+                    <a href="YOUR_STRIPE_OR_PAYPAL_LINK_HERE" 
+                       class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-5 px-8 rounded-xl shadow-lg transition duration-200 transform hover:scale-[1.02]">
+                        Pay & Secure Services
+                    </a>
+                    
+                    <p class="mt-6 text-slate-400 text-xs">
+                        By clicking above, you agree to our standard service terms.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 border-t border-slate-200 text-center">
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">Inquiries</h2>
+            <p class="text-slate-600 mb-8 text-lg">Have questions about our service model? Contact the Exorion Team directly.</p>
+            <div class="inline-flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 font-semibold text-blue-600">
+                <a href="mailto:support@exoriongroup.com" class="hover:underline">support@exoriongroup.com</a>
+                <span>+1 (555) 000-0000</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-12 px-6 bg-slate-900 text-slate-400 text-center">
+        <div class="max-w-6xl mx-auto">
+            <p class="font-bold text-white mb-4">EXORION GROUP</p>
+            <p class="text-sm mb-8">&copy; 2026 Exorion Group. All Rights Reserved. Strategy Consulting & Risk Management.</p>
+            <div class="flex justify-center space-x-6 text-xs">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+                <a href="#" class="hover:text-white">Refund Policy</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
